@@ -1,0 +1,307 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color:burlywood;
+    color:#000;
+}
+
+.hero {
+    position: relative;
+    background-size: 100vw;
+    height: 100vh;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.hero::before {    
+    content: "";
+    background-image: url('poject6.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 1;
+}
+
+nav {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+.nav-logo > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-list > ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-list > ul > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-list > ul > a > li {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.home {
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.home > h1 {
+    margin: 20px;
+    font-size: 64px;
+}
+
+.home > h1 > span {
+    color: #fff;
+}
+
+.home > p {
+    margin-bottom: 20px;
+    padding: 0 50px;
+}
+
+.home > button {
+    padding: 15px;
+    font-size: 16px;
+    width: 150px;
+    cursor: pointer;
+    font-weight: bold;
+    background: crimson;
+    border: none;
+    color: #fff;
+    border-radius: 7px;
+    box-shadow: 0 3px 15px #777;
+}
+
+.home > button:hover {
+    background-color: transparent;
+    border: 2px solid crimson;
+    color: #000;
+}
+
+.about {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 250px;
+    margin: 30px 40px 0 50px;
+}
+
+.about-image {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.about-image > img {
+    height: 850px;
+    width: 650px;
+    border-radius: 30px;
+    box-shadow: 0 3px 15px #777;
+}
+
+.about-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-info > small {
+    color:#000;
+}
+
+.about-info > h1 {
+    margin-bottom: 40px;
+    font-size: 48px;
+}
+
+.about-info > ul {
+    margin-top: 40px;
+    list-style-type: none;
+}
+
+.about-info > ul > li {
+    font-size: 30px;
+}
+
+.about-info > ul > li > i {
+    color: crimson;
+}
+
+.dog-types {
+    text-align: center;
+    margin-top: 30px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+    font-size: large;
+    
+}
+
+.dog-types > h1 {
+    font-size: 48px;
+}
+
+.dog-types > p {
+    margin-top: 30px;
+    padding: 0 50px;
+}
+
+.dog-types > h1 > span {
+    color: crimson;
+}
+
+.dogs-container {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.dog-card > h3 {
+    color: crimson;
+}
+
+.dog-image {
+    height: 500px;
+    width: 350px;
+    margin: 10px auto;
+    border-radius: 15px;
+    box-shadow: 0 3px 15px #777;
+}
+
+.dog-image > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.contact {
+    text-align: center;
+    margin-top: 30px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact > h1 {
+    font-size: 48px;
+}
+
+.contact > h1 > span {
+    color: crimson;
+}
+
+.form-box {
+    width: 700px;
+    padding: 50px;
+    margin: 30px auto;
+    background-color:crimson;
+    border-radius: 15px;
+}
+
+.form-box > form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-box > form > label {
+    font-weight: bold;
+}
+
+.form-box > form > input {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 20px 0;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.form-box > form > input:focus {
+    border: 2px solid #000;
+}
+
+.form-box > form > textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 20px 0;
+    height: 120px;
+    resize: none;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.form-box > form > textarea:focus {
+    border: 2px solid #000;
+}
+
+.form-box > form > button {
+    padding: 15px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #000;
+    color:#fff;
+}
+
+.form-box > form > button:hover {
+    background-color: crimson;
+    border: 2px solid #000;
+    color:#fff;
+}
+
+.social > h2 {
+    color: crimson;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons > i {
+    padding: 15px;
+    border-radius: 50%;
+    margin: 0 3px;
+    background-color:crimson;
+    color:#fff;
+    cursor: pointer;
+}

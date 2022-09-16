@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>Dog Website</title>
+</head>
+
+<body>
+    <div class="hero" id="hero" data-aos="fade-up">
+        <nav>
+            <div class="nav-logo">
+                <a href="#hero">
+                    <h2>Dog Shop</h2>
+                </a>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <a href="#about">
+                        <li>ABOUT</li>
+                    </a>
+                    <a href="#dog-types">
+                        <li>DOG TYPES</li>
+                    </a>
+                    <a href="#contact">
+                        <li>CONTACT</li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+        <div class="home">
+            <h1>PETS <span>PARADISE</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut perferendis libero eos expedita, quaerat
+                tempore impedit reiciendis fuga et, nam at voluptatibus exercitationem aperiam quia beatae praesentium
+                quisquam quasi consequatur iusto amet voluptas laudantium? Iste quas ipsa perspiciatis quibusdam
+                corrupti.</p>
+            <button>Catalogue</button>
+        </div>
+    </div>
+    <div class="about" id="about">
+        <div class="about-image" data-aos="fade-right">
+            <img src="project1.jpg">
+        </div>
+        <div class="about-info" data-aos="fade-left">
+            <small>About Our Shop</small>
+            <h1>Happy Pet Shop</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, optio voluptas! Est, expedita beatae?
+                Ab molestias hic deserunt quia eligendi est pariatur ex quos, incidunt iste rerum qui voluptatum
+                ducimus?</p>
+            <ul>
+                <li><i class="fas fa-dog"></i> All Breeds Available</li>
+                <li><i class="fas fa-pump-medical"></i> Proper Hygiene</li>
+                <li><i class="fas fa-bone"></i> Food Available</li>
+            </ul>
+        </div>
+    </div>
+    <div class="dog-types" id="dog-types">
+        <h1>MEET OUR <span>DOGS</span></h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis ducimus eum earum dignissimos illo quisquam corporis accusantium libero cum porro, eveniet corrupti quam assumenda a, suscipit provident nihil consequuntur quasi quia ullam enim quod atque inventore. Similique molestias doloremque doloribus.</p>
+        <div class="dogs-container">
+            <div class="dog-card"data-aos="flip-right">
+                <div class="dog-image">
+                    <img src="project2.jpg">
+                </div>
+                <h3>Bruno</h3>
+            </div>
+            <div class="dog-card"data-aos="flip-right">
+                <div class="dog-image">
+                    <img src="project3.jpg">
+                </div>
+                <h3>Oscar</h3>
+            </div>
+            <div class="dog-card"data-aos="flip-right">
+                <div class="dog-image">
+                    <img src="dog3.jpg">
+                </div>
+                <h3>Duke</h3>
+            </div>
+        </div>
+    </div>
+    <div class="contact" id="contact">
+        <h1>GET IN <span>TOUCH</span></h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias nam cumque accusamus commodi debitis culpa
+            nobis voluptatem optio. Minus, cum.</p>
+        <div class="form-box" data-aos="flip-up">
+            <form action="">
+                <label for="name">Name</label>
+                <input type="text" name="name" placeholder="john doe" required>
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="name@example.com">
+                <label for="message">Message</label>
+                <textarea name="message" placeholder="Type your message..." required></textarea>
+                <button>Send</button>
+            </form>
+        </div>
+        <div class="social" data-aos="zoom-in-up">
+            <h2>FOLLOW US ON SOCIAL MEDIA</h2>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, dolore.</P>
+            <div class="social-icons">
+                <i class="fab fa-instagram fa-2x"></i>
+                <i class="fab fa-facebook fa-2x"></i>
+                <i class="fab fa-twitter fa-2x"></i>
+                <i class="fab fa-whatsapp fa-2x"></i>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            delay: 500,
+            duration: 1000,
+            once: false
+        });
+    </script>
+</body>
+
+</html>
