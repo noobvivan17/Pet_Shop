@@ -10,8 +10,8 @@ html {
 
 body {
     font-family: 'Segoe UI', sans-serif;
-    background-color:burlywood;
-    color:#000;
+    background-color: burlywood;
+    color: #000;
 }
 
 .hero {
@@ -24,7 +24,7 @@ body {
     align-items: center;
 }
 
-.hero::before {    
+.hero::before {
     content: "";
     background-image: url('poject6.jpg');
     background-size: cover;
@@ -47,22 +47,22 @@ nav {
     z-index: 1;
 }
 
-.nav-logo > a {
+.nav-logo>a {
     text-decoration: none;
     color: #fff;
 }
 
-.nav-list > ul {
+.nav-list>ul {
     display: flex;
     list-style-type: none;
 }
 
-.nav-list > ul > a {
+.nav-list>ul>a {
     text-decoration: none;
     color: #fff;
 }
 
-.nav-list > ul > a > li {
+.nav-list>ul>a>li {
     padding: 10px;
     font-weight: bold;
 }
@@ -76,21 +76,21 @@ nav {
     font-size: large;
 }
 
-.home > h1 {
+.home>h1 {
     margin: 20px;
     font-size: 64px;
 }
 
-.home > h1 > span {
+.home>h1>span {
     color: #fff;
 }
 
-.home > p {
+.home>p {
     margin-bottom: 20px;
     padding: 0 50px;
 }
 
-.home > button {
+.home>button {
     padding: 15px;
     font-size: 16px;
     width: 150px;
@@ -103,7 +103,7 @@ nav {
     box-shadow: 0 3px 15px #777;
 }
 
-.home > button:hover {
+.home>button:hover {
     background-color: transparent;
     border: 2px solid crimson;
     color: #000;
@@ -123,7 +123,7 @@ nav {
     align-items: center;
 }
 
-.about-image > img {
+.about-image>img {
     height: 850px;
     width: 650px;
     border-radius: 30px;
@@ -136,25 +136,25 @@ nav {
     justify-content: center;
 }
 
-.about-info > small {
-    color:#000;
+.about-info>small {
+    color: #000;
 }
 
-.about-info > h1 {
+.about-info>h1 {
     margin-bottom: 40px;
     font-size: 48px;
 }
 
-.about-info > ul {
+.about-info>ul {
     margin-top: 40px;
     list-style-type: none;
 }
 
-.about-info > ul > li {
+.about-info>ul>li {
     font-size: 30px;
 }
 
-.about-info > ul > li > i {
+.about-info>ul>li>i {
     color: crimson;
 }
 
@@ -167,19 +167,19 @@ nav {
     justify-content: center;
     font-weight: bold;
     font-size: large;
-    
+
 }
 
-.dog-types > h1 {
+.dog-types>h1 {
     font-size: 48px;
 }
 
-.dog-types > p {
+.dog-types>p {
     margin-top: 30px;
     padding: 0 50px;
 }
 
-.dog-types > h1 > span {
+.dog-types>h1>span {
     color: crimson;
 }
 
@@ -189,7 +189,7 @@ nav {
     grid-template-columns: repeat(3, 1fr);
 }
 
-.dog-card > h3 {
+.dog-card>h3 {
     color: crimson;
 }
 
@@ -201,7 +201,7 @@ nav {
     box-shadow: 0 3px 15px #777;
 }
 
-.dog-image > img {
+.dog-image>img {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -217,11 +217,11 @@ nav {
     justify-content: center;
 }
 
-.contact > h1 {
+.contact>h1 {
     font-size: 48px;
 }
 
-.contact > h1 > span {
+.contact>h1>span {
     color: crimson;
 }
 
@@ -229,21 +229,21 @@ nav {
     width: 700px;
     padding: 50px;
     margin: 30px auto;
-    background-color:crimson;
+    background-color: crimson;
     border-radius: 15px;
 }
 
-.form-box > form {
+.form-box>form {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
-.form-box > form > label {
+.form-box>form>label {
     font-weight: bold;
 }
 
-.form-box > form > input {
+.form-box>form>input {
     width: 100%;
     padding: 15px;
     margin: 5px 0 20px 0;
@@ -252,11 +252,11 @@ nav {
     border-radius: 5px;
 }
 
-.form-box > form > input:focus {
+.form-box>form>input:focus {
     border: 2px solid #000;
 }
 
-.form-box > form > textarea {
+.form-box>form>textarea {
     width: 100%;
     padding: 15px;
     margin: 5px 0 20px 0;
@@ -267,11 +267,11 @@ nav {
     border-radius: 5px;
 }
 
-.form-box > form > textarea:focus {
+.form-box>form>textarea:focus {
     border: 2px solid #000;
 }
 
-.form-box > form > button {
+.form-box>form>button {
     padding: 15px;
     width: 100%;
     font-weight: bold;
@@ -280,16 +280,16 @@ nav {
     border: none;
     border-radius: 5px;
     background-color: #000;
-    color:#fff;
+    color: #fff;
 }
 
-.form-box > form > button:hover {
+.form-box>form>button:hover {
     background-color: crimson;
     border: 2px solid #000;
-    color:#fff;
+    color: #fff;
 }
 
-.social > h2 {
+.social>h2 {
     color: crimson;
 }
 
@@ -297,11 +297,11 @@ nav {
     margin-top: 20px;
 }
 
-.social-icons > i {
+.social-icons>i {
     padding: 15px;
     border-radius: 50%;
     margin: 0 3px;
-    background-color:crimson;
-    color:#fff;
+    background-color: crimson;
+    color: #fff;
     cursor: pointer;
 }
